@@ -22,7 +22,6 @@ export_graphviz(
     filled=True
 )
 
-
 Source.from_file(IMAGES_PATH / "iris_tree.dot")  # path differs in the book
 
 def converter_dot_para_png(caminho_dot, caminho_png):
